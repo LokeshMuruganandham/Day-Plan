@@ -593,18 +593,18 @@
                 </div>
             </div>
         </div>
-        <div class="md:hidden py-10 md:py-16 px-10 max-w-screen-xl m-auto ">
-            <div class="flex flex-col md:items-center md:justify-around">
+        <div class="md:hidden py-10 md:py-16 px-6 max-w-screen-xl m-auto ">
+            <div class="flex flex-col md:items-center px-4 md:justify-around">
                 <p class="py-2 text-indigo-700 font-medium heading">Pricing</p>
                 <h3 class="text-4xl font-bold heading">Pricing plans for teams of all sizes</h3>
                 <p class="py-4 max-w-screen-sm md:text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam iusto veniam laboriosam temporibus optio illo vitae sed officiis magni </p>
             </div>
             <div class="flex items-center justify-center" id="prevBtn" >
-                <div class="md:hidden z-40" onclick="previousSlide()" >
+                <div class="md:hidden z-50" onclick="previousSlide()" >
                     <img src="./Assets/Images/previous-svgrepo-com.svg" alt="" class="w-6">
                 </div>
-                <div class="md:flex md:justify-between md:flex-wrap mx-4 md:mx-0" id="carousel">
-                    <div class="w-full max-w-sm min-h-96 border rounded-3xl p-8 hover:bg-gray-50 mt-10 carousel-item" >
+                <div class="md:flex md:justify-between mx-2 md:flex-wrap" id="carousel">
+                    <div class="w-full max-w-sm min-h-96 border rounded-3xl p-4 sm:p-8 hover:bg-gray-50 mt-10 carousel-item" >
                         <div class="space-y-6">
                             <p class="font-bold text-xl heading">Freelancer</p>
                             <p>The essentials to provide your best work for clients.</p>
@@ -633,7 +633,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="w-full max-w-sm min-h-96 border rounded-3xl p-8 hover:bg-gray-50 mt-10 carousel-item" >
+                    <div class="w-full max-w-sm min-h-96 border rounded-3xl p-4 sm:p-8 hover:bg-gray-50 mt-10 carousel-item" >
                         <div class="space-y-6">
                             <p class="font-bold text-xl heading">Startup</p>
                             <p>A plan that scales with your rapidly growing business</p>
@@ -670,7 +670,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="w-full max-w-sm min-h-96 border rounded-3xl p-8 bg-gray-900 text-gray-200 mt-10 carousel-item" >
+                    <div class="w-full max-w-sm min-h-96 border rounded-3xl p-4 sm:p-8 bg-gray-900 text-gray-200 mt-10 carousel-item" >
                         <div class="space-y-6">
                             <p class="font-bold text-xl heading">Enterprise</p>
                             <p class="text-gray-400">Dedicated support and infrastructure for your company</p>
@@ -715,7 +715,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="md:hidden z-40" id="nextBtn" onclick="nextSlide()">
+                <div class="md:hidden z-50" id="nextBtn" onclick="nextSlide()">
                     <img src="./Assets/Images/next-svgrepo-com.svg" alt="" class="w-6">
                 </div>
             </div>
@@ -754,8 +754,9 @@
                 <p class="text-lg text-gray-600">Learn how to grow your business from our expert advise</p>
             </div>
             <div class="flex justify-evenly flex-wrap ">
-                <div class="max-w-xs lg:max-w-sm rounded-xl mt-10 mr-2 border lg:border-0 ">
-                    <img src="./Assets/Images/image-1.jpg" alt="" class="rounded-t-xl lg:rounded-xl">
+                <div class="flex justify-between flex-col max-w-xs lg:max-w-sm rounded-xl mt-10 mr-2 border lg:border-0 ">
+                    <div>
+                        <img src="./Assets/Images/image-1.jpg" alt="" class="rounded-t-xl lg:rounded-xl">
                     <div class="p-5 space-y-4">
                         <div class="flex text-xs items-center space-x-3">
                             <p class="text-gray-500">Mar 6, 2020</p>
@@ -763,54 +764,59 @@
                         </div>
                         <p class="text-xl font-bold heading">Boost your conversion rate</p>
                         <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam libero illo.</p>
-                        <div class="flex items-center space-x-4">
-                            <div>
-                                <img src="./Assets/Images/fueint_logo.png" alt="" class="w-10">
-                            </div>
-                            <div>
-                                <p class="font-medium">Foster</p>
-                                <p class="text-gray-600">Co-Founder</p>
-                            </div>
+                    </div>
+                    </div>
+                    <div class=" p-5 flex items-center space-x-4">
+                        <div>
+                            <img src="./Assets/Images/fueint_logo.png" alt="" class="w-10">
+                        </div>
+                        <div>
+                            <p class="font-medium">Foster</p>
+                            <p class="text-gray-600">Co-Founder</p>
                         </div>
                     </div>
                 </div>
-                <div class="max-w-xs lg:max-w-sm rounded-xl mt-10 mr-2 border lg:border-0 ">
-                    <img src="./Assets/Images/image-1.jpg" alt="" class="rounded-t-xl lg:rounded-xl">
-                    <div class="p-5 space-y-4">
-                        <div class="flex text-xs items-center space-x-3">
-                            <p class="text-gray-500">Mar 10, 2020</p>
-                            <p class="p-2 bg-gray-50 rounded-full">Sales</p>
+                <div class="flex justify-between flex-col max-w-xs lg:max-w-sm rounded-xl mt-10 mr-2 border lg:border-0 ">
+                    <div>
+                        <img src="./Assets/Images/image-1.jpg" alt="" class="rounded-t-xl lg:rounded-xl">
+                        <div class="p-5 space-y-4">
+                            <div class="flex text-xs items-center space-x-3">
+                                <p class="text-gray-500">Mar 10, 2020</p>
+                                <p class="p-2 bg-gray-50 rounded-full">Sales</p>
+                            </div>
+                            <p class="text-xl font-bold heading">How to use Search Engine Optimisation</p>
+                            <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam libero illo.</p>
                         </div>
-                        <p class="text-xl font-bold heading">How to use Search Engine Optimisation</p>
-                        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam libero illo.</p>
-                        <div class="flex items-center space-x-4">
-                            <div>
-                                <img src="./Assets/Images/fueint_logo.png" alt="" class="w-10">
-                            </div>
-                            <div>
-                                <p class="font-medium">Tom</p>
-                                <p class="text-gray-600">Director</p>
-                            </div>
+                    </div>
+                    <div class="p-5 flex items-center space-x-4">
+                        <div>
+                            <img src="./Assets/Images/fueint_logo.png" alt="" class="w-10">
+                        </div>
+                        <div>
+                            <p class="font-medium">Tom</p>
+                            <p class="text-gray-600">Director</p>
                         </div>
                     </div>
                 </div>
-                <div class="max-w-xs lg:max-w-sm rounded-xl mt-10 mr-2 border lg:border-0 ">
-                    <img src="./Assets/Images/image-1.jpg" alt="" class="rounded-t-xl lg:rounded-xl ">
-                    <div class="p-5 space-y-4">
-                        <div class="flex text-xs items-center space-x-3">
-                            <p class="text-gray-500">Feb 12, 2020</p>
-                            <p class="p-2 bg-gray-50 rounded-full">Business</p>
+                <div class="flex justify-between flex-col max-w-xs lg:max-w-sm rounded-xl mt-10 mr-2 border lg:border-0 ">
+                    <div>
+                        <img src="./Assets/Images/image-1.jpg" alt="" class="rounded-t-xl lg:rounded-xl ">
+                        <div class="p-5 space-y-4">
+                            <div class="flex text-xs items-center space-x-3">
+                                <p class="text-gray-500">Feb 12, 2020</p>
+                                <p class="p-2 bg-gray-50 rounded-full">Business</p>
+                            </div>
+                            <p class="text-xl font-bold heading">Improve your customer experience</p>
+                            <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam libero illo.</p>
                         </div>
-                        <p class="text-xl font-bold heading">Improve your customer experience</p>
-                        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam libero illo.</p>
-                        <div class="flex items-center space-x-4">
-                            <div>
-                                <img src="./Assets/Images/fueint_logo.png" alt="" class="w-10">
-                            </div>
-                            <div>
-                                <p class="font-medium">Michael</p>
-                                <p class="text-gray-600">Frontend Developer</p>
-                            </div>
+                    </div>
+                    <div class="p-5 flex items-center space-x-4">
+                        <div>
+                            <img src="./Assets/Images/fueint_logo.png" alt="" class="w-10">
+                        </div>
+                        <div>
+                            <p class="font-medium">Michael</p>
+                            <p class="text-gray-600">Frontend Developer</p>
                         </div>
                     </div>
                 </div>        
@@ -899,10 +905,10 @@
                 </div>
                 <div class="flex items-center space-x-4">
                     <div class="max-w-screen-sm ">
-                        <input class="bg-gray-200 border border-gray-300 text-gray-900 text-sm rounded-lg p-2.5 w-56 md:w-72" placeholder="Email"/>
+                        <input class="bg-gray-200 border border-gray-300 text-gray-900 text-sm rounded-lg p-2.5 w-52 sm:w-56 md:w-72" placeholder="Email"/>
                     </div>
                     <div>
-                        <a href="" class="inline inline-block px-4 md:px-5 py-2.5 rounded-lg text-black bg-blue-700 text-white">Subscribe</a>
+                        <a href="" class="inline inline-block px-2 md:px-5 py-2.5 rounded-lg text-black bg-blue-700 text-white">Subscribe</a>
                     </div>
                 </div>                
             </div>
