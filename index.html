@@ -5,12 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DayPlan</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <!-- Font family - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Font family - DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <style>
          .parent:hover .dropdown{
             display: block;
         }
-        
+
+        body{
+            font-family: "DM Sans", sans-serif;
+        }
+
+        .heading{
+            font-family: "Roboto", sans-serif;
+
+        }
+
+
     </style>
 </head>
 <body>
@@ -351,8 +369,8 @@
     <div class="bg-gradient-to-br from-gray-900 to-purple-900 overflow-hidden ">
         <div class="h-full md:flex items-center  max-w-screen-xl m-auto md:space-x-16 space-y-8 py-16 px-10">
             <div class="md:w-7/12 text-white">
-                <h3 class="font-bold text-4xl md:text-5xl">Boost your productivity.</h3>
-                <h3 class="font-bold text-4xl md:text-5xl">Start using our app today.</h3>
+                <h3 class="font-bold text-4xl md:text-5xl heading">Boost your productivity.</h3>
+                <h3 class="font-bold text-4xl md:text-5xl heading">Start using our app today.</h3>
                 <p class="py-8 md:py-16 text-gray-300 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore a quae, quaerat saepe optio, consequatur ut similique ea ipsa consequuntur laborum impedit ex</p>
                 <div class="flex items-center">
                     <a href="" class="inline inline-block px-5 py-2.5 rounded text-black bg-white hover:bg-black hover:text-white">Get Started</a>
@@ -373,8 +391,8 @@
         <div class="py-10 md:py-16 px-10 max-w-screen-xl m-auto">
             <div class="pb-10">
                 <div class="flex flex-col md:items-center justify-around">
-                    <p class="py-2 text-indigo-700 font-medium">Deploy faster</p>
-                    <h3 class="text-4xl font-bold">Everything you need to deploy your app</h3>
+                    <p class="py-2 text-indigo-700 font-medium heading">Deploy faster</p>
+                    <h3 class="text-4xl font-bold heading">Everything you need to deploy your app</h3>
                     <p class="py-4 max-w-screen-sm md:text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam iusto veniam laboriosam temporibus optio illo vitae sed officiis magni </p>
                 </div>
             </div>
@@ -383,7 +401,7 @@
                     <div class="space-y-4">
                         <div class="flex font-medium space-x-2 ">
                             <img src="./Assets/Images/cloud-upload-svgrepo-com.svg" alt="" srcset="" class="w-5">
-                            <p>Push to deploy</p>
+                            <p class="heading">Push to deploy</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nemo sed ex maxime libero autem repellat voluptates aperiam alias, aliquam beatae nostrum commodi?</p>
                     </div>
@@ -396,7 +414,7 @@
                     <div class="space-y-4">
                         <div class="flex font-medium space-x-2">
                             <img src="./Assets/Images/lock-svgrepo-com.svg" alt="" class="w-5 ">
-                            <p>SSL Certificates</p>
+                            <p class="heading">SSL Certificates</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nemo sed ex maxime libero autem repellat voluptates aperiam alias.</p>
                     </div>
@@ -409,7 +427,7 @@
                     <div class="space-y-4">
                         <div class="flex font-medium space-x-2 ">
                             <img src="./Assets/Images/loop-circular-svgrepo-com.svg" alt="" class="w-5">
-                            <p>Simple Queues</p>
+                            <p class="heading">Simple Queues</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nemo sed ex maxime libero autem repellat voluptates aperiam alias, aliquam beatae nostrum commodi? Corrupti adipisci recusandae in amet, tenetur itaque.</p>
                     </div>
@@ -428,25 +446,25 @@
                 <img src="./Assets/Images/Stats-Image.avif" alt="" class="hidden md:block md:max-h-full md:min-w-full md:object-cover " >
             </div>
             <div class="md:w-1/2  max-w-screen-md px-10 flex flex-col justify-center">
-                <p class="text-indigo-700 font-medium">Our Track Record</p>
-                <h3 class="text-3xl font-bold py-5">Trusted by thousands of creaters worldwide</h3>
+                <p class="text-indigo-700 font-medium heading">Our Track Record</p>
+                <h3 class="text-3xl font-bold py-5 heading">Trusted by thousands of creaters worldwide</h3>
                 <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatibus modi nihil magni accusantium delectus id praesentium qui perspiciatis. Quas libero accusantium, eum tempore omnis odit blanditiis! Cupiditate, atque a?</p>
                 
                 <div class="grid grid-cols-2 gap-6 py-10 md:py-16">
                     <div class="px-5 border-l-2 space-y-2">
-                        <p class="text-xl sm:text-3xl font-bold">+8000</p>
+                        <p class="text-xl sm:text-3xl font-bold heading">+8000</p>
                         <p>Creators on the platform</p>
                     </div>
                     <div class="px-5 border-l-2 space-y-2">
-                        <p class="text-xl sm:text-3xl font-bold">3%</p>
+                        <p class="text-xl sm:text-3xl font-bold heading">3%</p>
                         <p>FLat platform fee</p>
                     </div>
                     <div class="px-5 border-l-2 space-y-2">
-                        <p class="text-xl sm:text-3xl font-bold">99.9%</p>
+                        <p class="text-xl sm:text-3xl font-bold heading">99.9%</p>
                         <p>Uptime guarantee</p>
                     </div>
                     <div class="px-5 border-l-2 space-y-2">
-                        <p class="text-xl sm:text-3xl font-bold">$70M</p>
+                        <p class="text-xl sm:text-3xl font-bold heading">$70M</p>
                         <p>Paid out to creators</p>
                     </div>
                 </div>
@@ -458,14 +476,14 @@
     <div>
         <div class="hidden md:block py-10 md:py-16 px-5 max-w-screen-xl m-auto ">
             <div class="flex flex-col md:items-center md:justify-around">
-                <p class="py-2 text-indigo-700 font-medium">Pricing</p>
-                <h3 class="text-4xl font-bold">Pricing plans for teams of all sizes</h3>
+                <p class="py-2 text-indigo-700 font-medium heading">Pricing</p>
+                <h3 class="text-4xl font-bold heading">Pricing plans for teams of all sizes</h3>
                 <p class="py-4 max-w-screen-sm md:text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam iusto veniam laboriosam temporibus optio illo vitae sed officiis magni </p>
             </div>
             <div class="flex justify-evenly flex-wrap">
                 <div class="w-full max-w-xs lg:max-w-sm min-h-96 border rounded-3xl mr-2 p-8 hover:bg-gray-50 mt-10  " >
                     <div class="space-y-6">
-                        <p class="font-bold text-xl">Freelancer</p>
+                        <p class="font-bold text-xl heading">Freelancer</p>
                         <p>The essentials to provide your best work for clients.</p>
                         <div class="flex items-end">
                             <p class="text-3xl font-bold">$15</p>
@@ -494,7 +512,7 @@
                 </div>
                 <div class="w-full max-w-xs lg:max-w-sm min-h-96 border rounded-3xl mr-2 p-8 hover:bg-gray-50 mt-10 " >
                             <div class="space-y-6">
-                                <p class="font-bold text-xl">Startup</p>
+                                <p class="font-bold text-xl heading">Startup</p>
                                 <p>A plan that scales with your rapidly growing business</p>
                                 <div class="flex items-end">
                                     <p class="text-3xl font-bold">$30</p>
@@ -531,7 +549,7 @@
                 </div>
                 <div class="w-full max-w-xs lg:max-w-sm min-h-96 border rounded-3xl mr-2 p-8 bg-gray-900 text-gray-200 mt-10" >
                             <div class="space-y-6">
-                                <p class="font-bold text-xl">Enterprise</p>
+                                <p class="font-bold text-xl heading">Enterprise</p>
                                 <p class="text-gray-400">Dedicated support and infrastructure for your company</p>
                                 <div class="flex items-end">
                                     <p class="text-3xl font-bold">Custom</p>
@@ -577,8 +595,8 @@
         </div>
         <div class="md:hidden py-10 md:py-16 px-10 max-w-screen-xl m-auto ">
             <div class="flex flex-col md:items-center md:justify-around">
-                <p class="py-2 text-indigo-700 font-medium">Pricing</p>
-                <h3 class="text-4xl font-bold">Pricing plans for teams of all sizes</h3>
+                <p class="py-2 text-indigo-700 font-medium heading">Pricing</p>
+                <h3 class="text-4xl font-bold heading">Pricing plans for teams of all sizes</h3>
                 <p class="py-4 max-w-screen-sm md:text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam iusto veniam laboriosam temporibus optio illo vitae sed officiis magni </p>
             </div>
             <div class="flex items-center justify-center" id="prevBtn" >
@@ -588,7 +606,7 @@
                 <div class="md:flex md:justify-between md:flex-wrap mx-4 md:mx-0" id="carousel">
                     <div class="w-full max-w-sm min-h-96 border rounded-3xl p-8 hover:bg-gray-50 mt-10 carousel-item" >
                         <div class="space-y-6">
-                            <p class="font-bold text-xl">Freelancer</p>
+                            <p class="font-bold text-xl heading">Freelancer</p>
                             <p>The essentials to provide your best work for clients.</p>
                             <div class="flex items-end">
                                 <p class="text-3xl font-bold">$15</p>
@@ -617,7 +635,7 @@
                     </div>
                     <div class="w-full max-w-sm min-h-96 border rounded-3xl p-8 hover:bg-gray-50 mt-10 carousel-item" >
                         <div class="space-y-6">
-                            <p class="font-bold text-xl">Startup</p>
+                            <p class="font-bold text-xl heading">Startup</p>
                             <p>A plan that scales with your rapidly growing business</p>
                             <div class="flex items-end">
                                 <p class="text-3xl font-bold">$30</p>
@@ -654,7 +672,7 @@
                     </div>
                     <div class="w-full max-w-sm min-h-96 border rounded-3xl p-8 bg-gray-900 text-gray-200 mt-10 carousel-item" >
                         <div class="space-y-6">
-                            <p class="font-bold text-xl">Enterprise</p>
+                            <p class="font-bold text-xl heading">Enterprise</p>
                             <p class="text-gray-400">Dedicated support and infrastructure for your company</p>
                             <div class="flex items-end">
                                 <p class="text-3xl font-bold">Custom</p>
@@ -707,7 +725,7 @@
     <div class="">
         <div class=" max-w-screen-xl flex justify-around py-10 md:py-16 px-10 m-auto flex-wrap">
             <div class="md:w-1/2 space-y-6">
-                <h3 class="font-bold text-3xl">Trusted by most innovative teams</h3>
+                <h3 class="font-bold text-3xl heading">Trusted by most innovative teams</h3>
                 <p class="text-lg text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore a quae, quaerat saepe optio, consequatur ut similique ea ipsa consequuntur laborum impedit ex</p>
                 <div class="flex items-center">
                     <a href="" class="inline inline-block px-5 py-2.5 rounded text-black bg-blue-700 text-white hover:bg-blue-500">Create Account</a>
@@ -732,7 +750,7 @@
     <div class=" ">
         <div class="max-w-screen-xl py-10 md:py-16 px-5 md:space-y-10 m-auto">
             <div class="space-y-4 md:text-center">
-                <h3 class="font-bold text-3xl">From the Blog</h3>
+                <h3 class="font-bold text-3xl heading">From the Blog</h3>
                 <p class="text-lg text-gray-600">Learn how to grow your business from our expert advise</p>
             </div>
             <div class="flex justify-evenly flex-wrap ">
@@ -743,7 +761,7 @@
                             <p class="text-gray-500">Mar 6, 2020</p>
                             <p class="p-2 bg-gray-50 rounded-full">Marketing</p>
                         </div>
-                        <p class="text-xl font-bold">Boost your conversion rate</p>
+                        <p class="text-xl font-bold heading">Boost your conversion rate</p>
                         <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam libero illo.</p>
                         <div class="flex items-center space-x-4">
                             <div>
@@ -763,7 +781,7 @@
                             <p class="text-gray-500">Mar 10, 2020</p>
                             <p class="p-2 bg-gray-50 rounded-full">Sales</p>
                         </div>
-                        <p class="text-xl font-bold">How to use Search Engine Optimisation</p>
+                        <p class="text-xl font-bold heading">How to use Search Engine Optimisation</p>
                         <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam libero illo.</p>
                         <div class="flex items-center space-x-4">
                             <div>
@@ -783,7 +801,7 @@
                             <p class="text-gray-500">Feb 12, 2020</p>
                             <p class="p-2 bg-gray-50 rounded-full">Business</p>
                         </div>
-                        <p class="text-xl font-bold">Improve your customer experience</p>
+                        <p class="text-xl font-bold heading">Improve your customer experience</p>
                         <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam libero illo.</p>
                         <div class="flex items-center space-x-4">
                             <div>
@@ -803,7 +821,7 @@
     <div class="flex justify-center items-center">
         <div class="py-10 md:py-16 px-10 max-w-screen-xl flex flex-col justify-center items-center">
             <div class="space-y-4 md:text-center max-w-screen-md flex flex-col justify-center md:items-center">
-                <h3 class="font-bold text-2xl">Frequently asked questions</h3>
+                <h3 class="font-bold text-2xl heading">Frequently asked questions</h3>
                 <p class="text-lg text-gray-500">Have a question and can't find the answer you're looking for? reach out to our support team by sending us an email and we'll get back to you as soon as we can.</p>
             </div>
             <div class="grid md:grid-cols-2 gap-10 pt-20">
@@ -839,7 +857,7 @@
         <div class="py-10 md:py-16 px-10 max-w-screen-xl m-auto flex flex-col ">
             <div class="pb-10 grid grid-cols-2  md:grid-cols-4 gap-10 md:gap-36 content-end border-b border-gray-700">
                 <div class="space-y-2">
-                    <h4 class="font-bold">Solutions</h4>
+                    <h4 class="font-bold heading">Solutions</h4>
                     <ul class="text-gray-400">
                         <li><a href="">Marketing</a></li>
                         <li><a href="">Analytics</a></li>
@@ -848,7 +866,7 @@
                     </ul>
                 </div>
                 <div class="space-y-2">
-                    <h4 class="font-bold">Support</h4>
+                    <h4 class="font-bold heading">Support</h4>
                     <ul class="text-gray-400">
                         <li><a href="">Documentation</a></li>
                         <li><a href="">Pricing</a></li>
@@ -857,7 +875,7 @@
                     </ul>
                 </div>
                 <div class="space-y-2">
-                    <h4 class="font-bold">Company</h4>
+                    <h4 class="font-bold heading">Company</h4>
                     <ul class="text-gray-400">
                         <li><a href="">About</a></li>
                         <li><a href="">Blog</a></li>
@@ -866,7 +884,7 @@
                     </ul>
                 </div>
                 <div class="space-y-2">
-                    <h4 class="font-bold">Legal</h4>
+                    <h4 class="font-bold heading">Legal</h4>
                     <ul class="text-gray-400">
                         <li><a href="">Claim</a></li>
                         <li><a href="">Privacy</a></li>
@@ -876,7 +894,7 @@
             </div>
             <div class="py-10 lg:flex justify-between border-b border-gray-700 space-y-4 lg:space-y-0">
                 <div>
-                    <h4>Subscribe to our Newsletter</h4>
+                    <h4 class="heading">Subscribe to our Newsletter</h4>
                     <p class="text-gray-500">The latest news, articles, and resourses, sent to your inbox weekly.</p>
                 </div>
                 <div class="flex items-center space-x-4">
